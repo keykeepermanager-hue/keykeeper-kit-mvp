@@ -1,0 +1,19 @@
+:root { --fg:#0b1220; --muted:#5a6072; --bg:#fff; --accent:#5b8cff; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell}
+.wrap{max-width:980px;margin:0 auto;padding:28px}
+header{padding-top:56px;padding-bottom:32px;text-align:center}
+h1{font-size:44px;margin:0 0 6px}
+.subtitle{color:var(--muted);margin:0 0 14px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:12px 0 24px}
+.badges span{border:1px solid #e6e8ef;border-radius:999px;padding:6px 12px;color:var(--muted)}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600}
+.features{list-style:disc;margin-left:20px}
+.steps{list-style:decimal;margin-left:20px}
+#buy .payments{display:flex;flex-wrap:wrap;gap:12px;margin:10px 0 8px}
+.pay-btn{display:inline-block;border:1px solid #dfe3ee;border-radius:10px;padding:10px 14px;text-decoration:none;color:var(--fg)}
+.fine{color:var(--muted);font-size:14px}
+.faq details{border:1px solid #eceff5;border-radius:10px;padding:10px 12px;margin:8px 0}
+.footer{color:var(--muted);font-size:14px;border-top:1px solid #f0f2f7}
+.qr{text-align:center;margin-top:12px}
+@media(max-width:640px){ h1{font-size:34px} }
